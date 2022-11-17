@@ -1,0 +1,11 @@
+.field{
+    margin-bottom:10px
+  }
+.headline{ 
+    color:blue;} 
+.personaldata { 
+    list-style:none;}
+ li span {
+    font-weight: bold;}
+ label span{font-weight:bold}
+ p span{font-weight:bold}

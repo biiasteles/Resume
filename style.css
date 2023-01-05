@@ -159,3 +159,10 @@ b {
   height: 400px;
   margin: 0 auto;
 }
+
+.percentage-photo {
+  width: 60%;
+  height: 400px;
+  background-size: cover;
+  background-image: url('../resume/percentage.jpeg');
+  }

@@ -6,8 +6,7 @@ body{
 
 a {
   color: white;
-  padding: 20px;
-  filter: drop-shadow(2px 4px 6px black);
+  padding: 10px;
 }
 
 b {
@@ -48,9 +47,9 @@ b {
 .resume-body {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: end;
   align-content: center;
-  height: 400px;
+  height: 250px;
   }
 
 .resume-body-content {
@@ -95,6 +94,7 @@ b {
   list-style: none;
   text-align: left;
   color: black;
+  padding: 0;
 }
 
 .answers {
@@ -108,14 +108,21 @@ b {
 .third-content {
   background-color: #14B47C;
   display: flex;
-  /* width: 40%; */
-  height: 20%;
+  height: 19%;
   border :none;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   align-content: stretch;
 }
+
+.icons-bottom{
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    width:70%;
+    justify-content: space-between;
+  }
 
 .box {
   display: flex;
@@ -154,15 +161,38 @@ b {
   padding: 30px;
 }
 
-.percentage {
-  width: 50%;
-  height: 400px;
-  margin: 0 auto;
-}
-
 .percentage-photo {
   width: 60%;
   height: 400px;
   background-size: cover;
   background-image: url('../resume/percentage.jpeg');
+  }
+
+  .hello{
+    background: #14B47C;
+    width: 120px;
+    height: 27px;
+    position: relative;
+    padding: 0 8px;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+  }
+  .hello:after{
+  
+    content: "";
+  
+    width: 0;
+    height: 0px;
+  
+    position: absolute;
+  
+    border-left: 11px solid transparent;
+    border-top: 17px solid #14B47C;
+    
+    bottom: -16px;
+    left: 92%;
   }
